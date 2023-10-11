@@ -11,12 +11,9 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color: $Color-White;
+  color: $Color-Black;
 }
 
 :root {
-  background-image: url('./assets/images/stained-black-surface.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background: #fbf4f0;
 }

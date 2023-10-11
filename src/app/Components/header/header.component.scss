@@ -1,0 +1,49 @@
+@use '../../../Styles//variables.scss';
+@import '../../../Styles/Utils/mixins';
+
+.container__Header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  padding: 0.5rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+  .header__Content-Person {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+  }
+
+  .header__Content-Person > img {
+    border-radius: 5px;
+    height: auto;
+    width: 40%;
+  }
+
+  .header__Content-H6 {
+    text-transform: capitalize;
+  }
+
+  .header__Content-H6 > h6 {
+    font-weight: 200;
+  }
+
+  #header__H6-Name {
+    font-weight: 900;
+  }
+
+  .header__Content-H1 {
+    font-size: 0.6rem;
+  }
