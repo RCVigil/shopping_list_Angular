@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+/* Você pode adicionar global styles a este arquivo e também importar outros arquivos de estilo */
+
+@use './Styles/variables';
+@import './Styles/Utils/mixins';
+
+/* Importe Normalize.css */
+@import 'normalize.css/normalize.css';
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: $Color-White;
+}
+
+:root {
+  background-image: url('./assets/images/stained-black-surface.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
